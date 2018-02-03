@@ -101,6 +101,7 @@ public class CheckMessagesVerifierTest {
       .withMessage("foo");
   }
 
+  @org.junit.Ignore
   @Test
   public void withMessageThat() {
     thrown.expect(AssertionError.class);
